@@ -1,0 +1,418 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+} 
+/* navigation section strat */
+.ftco-navbar-light{
+    background: transparent !important;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 0;
+}
+ .navbar-brand span{
+    color: #f5e4c3;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 24px;
+}
+.navbar-toggler{
+    border: none;
+    color: rgba(255,255,255,0.5) !important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
+    border-color: rgba(255,255,255,0.1) !important;
+}
+.navbar-collapse{
+    flex-basis: 100%;
+    align-items: center;
+    flex-grow: 1;
+}
+.nav-link{
+    display: block;
+    font-size: 14px ;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    opacity: 1 !important;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.nav-item.active a{
+    color:white;
+}
+/* navigation section end */
+
+/* breadcumbs section start */
+.hero-wrap{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slider-text{
+    color: #fff;
+    height: 750px;
+}
+.breadcrumbs{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.breadcrumbs span{
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.7);
+}
+.breadcrumbs span a{
+    color: #fff;
+    text-decoration: none;
+}
+.bread{
+    font-weight: 700;
+    color: #fff;
+    font-size: 60px;
+    font-family: "nUNITO Sans",Arial,sans-serif;
+}
+/* breadcrums section end */
+
+/* services section start */
+
+.subheading {
+    padding: 30px;
+    font-size: 13px;
+    display: block; 
+    margin-bottom: 5px;
+    color: #21cc7a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.heading-section h2{
+    font-size: 38px;
+    font-weight: 700;
+    position: relative;
+}
+.services{
+    width: 100%;
+    background: #f8f9fa;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+.services.icon{
+    line-height: 1.3;
+    position: relative;
+    width: 100px;
+    background: #fff;
+    margin-bottom: 10px;
+    margin-top: -80px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px -4px 15px -15px rgba(0, 0, 0, 0.42);
+}
+.services.icon span{
+    font-size: 54px;
+    color: #21cc7a;
+}
+ .services .media-body h3{
+    font-size: 20px;
+}
+/* service section end */
+
+/* about section start */
+.order-md-last{
+    order: 13;
+}
+.ftco-wrap-about .img{
+    width: 100%;
+}
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.btn.btn-secondary {
+    background: #2f89fc;
+    border: 1px solid #2f89fc;
+    color: #fff;
+}
+.btn.btn-secondary:hover{
+    border: 1px solid #2f89fc !important;
+    background-color: #fff;
+    color: #007bff;
+    transition: all 0.3s ease;
+}
+/* about section end */
+
+/* testimonial section start */
+.testimony-section{
+    position: relative;
+}
+.testimony-img{
+    display: block;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top  center;
+}
+.aside-stretch-2:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    width: 360%;
+    background-color: #2f89fc !important;
+}
+.testimony-section.owl-carousel{
+  margin: 0;
+}
+.owl-stage-outer{
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+.testimony-wrap{
+  display: block;
+  position: relative;
+}
+
+.user-img{
+  width: 80px;
+    height: 80px; 
+  border-radius: 50% !important;
+   position: relative; 
+  background-position: center;
+}
+.name{
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #2f89fc !important;
+  font-size: 20px;
+}
+.position{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.owl-nav{
+    position: absolute;
+    bottom: 60px !important;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.owl-carousel.owl-nav{
+    top: 50%;
+    width: 100%;
+}
+.carousel-control-prev{
+    top: 0 !important;
+}
+.carousel-control-next{
+    top: 0 !important;
+}
+.carousel-control-next{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #fff !important;
+    transition: all 0.7s ease;
+    opacity: 1;
+}
+.carousel-control-prev{
+    margin-top: -10px;
+    color: #21cc7a !important;
+    transition: all 0.7s ease;
+    opacity: 0;
+}
+.owl-dots{
+    text-align: center;
+}
+.owl-dot{
+    width: 10px;
+    height: 10px;
+     margin: 5px;   
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+} 
+.owl-dots.owl-dot.active{
+    color: #21cc7a !important;
+}
+.owl-dot:after{
+    content: "";
+    top: -2px;
+    position: absolute;
+    left: -2px;
+    right: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+}
+/* testimony section end */
+/* instagram section start */
+.instagram .heading-section h2{
+    font-size: 30px;
+}
+.insta-img{
+    display: block;
+    height: 280px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.image-popup{
+    cursor: zoom-in;
+}
+ .insta-img  .fa-instagram{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(47, 137, 252, 0.8);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.insta-img .icon-span{
+    color: #fff;
+    font-size: 40px;
+}
+/* instagram section end */
+
+/* footer section start */
+.ftco-footer{
+    font-size: 16px;
+    padding: 7em 0;
+    background: #2f89fc;
+    opacity: .4;
+}
+.ftco-section img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.ftco-footer .overlay{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .9;
+    /* background: #2f89fc;  */
+}
+.ftco-footer-widget h2{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Nunito Sans",Arial,sans-serif;
+}
+.ftco-footer p{
+    color: rgba(255, 255, 255, 0.7);
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.list-unstyled{
+    padding: 0;
+    list-style: none;
+}
+.ftco-footer-social li{
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+.ftco-footer-social li a{
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative;   
+}
+.ftco-footer a{
+    color: rgba(255, 255, 255, 0.7);
+}
+.ftco-footer-widget ul li a span{
+    color: #fff;
+}
+.ftco-footer-social li a span{
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.py-2{
+    color: #ffff;
+}
+.block-23 ul li{
+    padding: 0;
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.block-23 ul li span{
+    color: rgba(255, 255, 255, 0.7);
+} 
+.block-23 ul li.text{
+    display: table-cell;
+    vertical-align: top;
+    color: white;
+}
+.fa-location-dot{
+    color: white;
+    margin: 10px;
+    /* text-align: center; */
+}
+.fa-phone{
+    color: #fff;
+    margin: 10px;
+}
+.fa-envelope{
+    color: #fff;
+    margin: 10px;
+}
+.ftco-footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    list-style: none;
+}
+/* footer section end */
